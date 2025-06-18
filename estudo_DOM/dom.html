@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rgb(247, 215, 170);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Estudando o DOM</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo minus, deleniti placeat quidem voluptates consequatur soluta nobis eaque corrupti ullam eius ab quam ipsa error laborum! Reprehenderit, quas quod. Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id debitis quos ullam fugit sit vero maxime quis, voluptatibus expedita enim pariatur iste modi velit ut iusto! Optio, ea aperiam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum veniam culpa, similique exercitationem magnam fuga optio. Iste, earum, rem necessitatibus natus voluptate eligendi amet reprehenderit dolores perspiciatis incidunt hic repellat?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, nobis doloribus? Repudiandae, illum quisquam laboriosam eos aperiam, illo sapiente eaque sit animi at, excepturi quaerat laborum impedit veniam fugit temporibus!</p>
+
+    <script>
+        var corpo = window.document.body
+
+
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+        corpo.style.background = 'blue'
+    </script>
+    
+</body>
+</html>
